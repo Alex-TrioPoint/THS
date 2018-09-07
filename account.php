@@ -166,10 +166,10 @@
                             </div>
                             <div class="card-footer">
                                 <center>
-                                    <button class="btn btn-sm btn-primary btn-round" id="edit"> EDIT</button>
-                                    <div id="xxx_x_edits" >
+                                    <button class="btn btn-sm btn-primary btn-round" id="badilisha"> EDIT</button>
+                                    <div id="mabadiliko" style="display: none" >
                                         <button class="btn btn-sm btn-danger btn-round"> CLEAR</button>
-                                        <button class="btn btn-sm btn-success btn-round" id="submit"> SUBMIT</button>
+                                        <button class="btn btn-sm btn-success btn-round" id="maliza"> SUBMIT</button>
                                     </div>
                                 </center>
                             </div>
@@ -277,10 +277,10 @@
 <!--                            <hr>-->
                             <div class="card-footer">
                                 <center>
-                                    <button class="btn btn-sm btn-primary btn-round">EDIT</button>
-                                    <div id="eduEdit" style="display: none">
-                                        <button class="btn btn-sm btn-danger btn-round"> CLEAR</button>
-                                        <button class="btn btn-sm btn-success btn-round "> SUBMIT</button>
+                                    <button class="btn btn-sm btn-primary btn-round" id="badilisha2">EDIT</button>
+                                    <div id="mabadiliko2" style="display: none">
+                                        <button class="btn btn-sm btn-danger btn-round" type="reset"> CLEAR</button>
+                                        <button class="btn btn-sm btn-success btn-round" id="maliza2" type="submit"> SUBMIT</button>
                                     </div>
                                 </center>
                             </div>
@@ -302,5 +302,6 @@
 
 <!--   Core JS Files   -->
 <?php include 'includes/scripts.php';?>
+<?php include 'includes/modals.php';?>
 </body>
 

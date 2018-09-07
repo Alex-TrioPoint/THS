@@ -50,9 +50,9 @@
                             </div>
                         </div>
                         <center>
-                            <button class="btn btn-success btn-sm btn-leave" data-toggle="modal" data-target="#leave-new" >APPLY FOR LEAVE</button>
+                            <button class="btn btn-success btn-sm btn-leave btn-round" data-toggle="modal" data-target="#leave-new" >APPLY FOR LEAVE</button>
 <!--                            <button class="btn btn-primary btn-sm btn-leave" data-toggle="modal" data-target="#preview">CHECK LEAVE STATUS</button>-->
-                            <button class="btn btn-primary btn-sm btn-leave" data-toggle="modal" data-target="#preview">GUIDELINES</button>
+                            <button class="btn btn-primary btn-sm btn-leave btn-round" data-toggle="modal" data-target="#preview">GUIDELINES</button>
                         </center>
                     </div>
 

@@ -39,7 +39,7 @@
         <li>
             <a href="#">
                 <i class="now-ui-icons travel_info"></i>
-                FAQ
+                Goals & Reviews
             </a>
         </li>
         <li>

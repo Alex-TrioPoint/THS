@@ -5,6 +5,34 @@
  * Date: 02/03/2018
  * Time: 10:56
  */?>
+<!--Password Change-->
+<div class="modal  fade" id="changepassword" tabindex="-1" role="dialog" aria-labelledby="leave-new" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content border no-border">
+            <div class="modal-header">
+                <h5 class=" text-center text-main" >Change Password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <input type="text" class="form-control form-control-success" placeholder="Old Password">
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <input type="text" class="form-control form-control-success" placeholder="New Password Must be more than 8 characters!">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <!-- Modal -->
 <div class="modal fade" id="leave-new" tabindex="-1" role="dialog" aria-labelledby="leave-new" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -79,8 +107,8 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-success">APPLY</button>
+                <button type="button" class="btn btn-danger btn-round" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-round">APPLY</button>
             </div>
         </div>
     </div>
@@ -146,8 +174,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
-                <button type="button" class="btn btn-success" data-dismiss="modal">OKAY</button>
+                <button type="button" class="btn btn-danger btn-round" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-success btn-round" data-dismiss="modal">OKAY</button>
             </div>
         </div>
     </div>
@@ -213,8 +241,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
-                <button type="button" class="btn btn-success" data-dismiss="modal">OKAY</button>
+                <button type="button" class="btn btn-danger btn-round" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-success btn-round" data-dismiss="modal">OKAY</button>
             </div>
         </div>
     </div>
@@ -240,7 +268,7 @@
                     </div>
                     <div class="col-sm-9 col-md-9">
                         <div class="form-group has-input-filled">
-                            <input type="text" value=""  class="form-control form-control-success" placeholder="Folder Name E.g Certificates or Company documents" required/>
+                            <input type="file" value=""  class="form-control form-control-success" placeholder="Folder Name E.g Certificates or Company documents" required/>
                         </div>
                     </div>
 
@@ -273,7 +301,7 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger btn-sm btn-round" data-dismiss="modal">CLOSE</button>
-                <button type="button" class="btn btn-success text-center btn-sm btn-round" data-dismiss="modal"><i class="fa fa-plus"></i> CREATE</button>
+                <button type="button" class="btn btn-success text-center btn-sm btn-round" data-dismiss="modal"><i class="fa fa-upload"></i> UPLOAD</button>
             </div>
         </div>
     </div>

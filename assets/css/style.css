@@ -540,6 +540,87 @@ hr{
     background-color: #ffffff!important;
 
 }
+#mabadiliko{
+    display: none!important;
+}
+.modal-dialog1 {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+.card-profile .card-avatar, .card-testimonial .card-avatar {
+
+    max-width: 130px;
+    max-height: 130px;
+    /*margin: -60px auto 0;*/
+}
+.card-profile .card-body .card-avatar, .card-testimonial .card-body .card-avatar {
+    margin: 5px auto 10px;
+}
+.card-profile{
+text-align: center!important;
+}
+.card-profile>img{
+box-shadow: none!important;
+}
+.card-title {
+    margin-bottom: .0rem;
+}
+.designation{
+    color: #9A9A9A;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.p-info{
+   text-align: left!important;
+   font-size: 13px;
+}
+.p-info>p{
+    margin-bottom: 0px!important;
+    margin-left: 5px;
+}
+.form-search:focus {
+    border: 1px solid blue!important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important;
+    color: blue!important;
+}
+element {
+
+}
+.input-group-append {
+    margin-left: -1px;
+}
+.input-group-append, .input-group-prepend {
+    display: -ms-flexbox;
+    display: flex;
+}
+.form-group, .input-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.input-group-append, .input-group-prepend {
+
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+
+
+
 
 
 
@@ -603,6 +684,11 @@ hr{
         display: none;
     }
 }
+@media (min-width: 576px){
+    .modal-dialog1 {
+        max-width: 450px;
+        margin: 30px auto;
+    }
 
 /** ************************************************************* **/
 

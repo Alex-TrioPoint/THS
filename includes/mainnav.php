@@ -32,7 +32,7 @@
 
     </div>
     <div class="collapse navbar-collapse justify-content-end" >
-        <a class="nav-link "><strong class="text-main name" rel="tooltip" title="The seal of unbroken promise" data-placement="bottom">PACIFIC GROUP</strong></a>
+        <a class="nav-link "><strong class="text-main name" rel="tooltip" title="The seal of unbroken promise" data-placement="bottom">TrioPoints THS</strong></a>
 
         <ul class="navbar-nav ">
             <li class="nav-item dropdown">
@@ -56,8 +56,8 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-header">Moses Mukembu</a>
-                    <a class="dropdown-item" href="#">Edit Profile</a>
-                    <a class="dropdown-item" href="#">View Profile</a>
+                    <a class="dropdown-item text-bold" href="account.php">View/Edit Profile</a>
+                    <a class="dropdown-item text-bold" data-toggle="modal" data-target="#changepassword" style="cursor: pointer">Change Password</a>
                     <!--<a class="dropdown-item" href="#">Something else here</a>-->
                     <!--<div class="divider"></div>-->
                     <!--<a class="dropdown-item" href="#">Separated link</a>-->

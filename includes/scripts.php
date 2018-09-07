@@ -36,6 +36,37 @@
         });
     });
 </script>
+<script>
+//    Script for showing edit button on personal information
+    $(document).ready(function(){
+        //    Script for showing edit button on personal information
+        $("#badilisha").click(function(){
+            $("#mabadiliko").show();
+            $("#badilisha").hide();
+        });
+        $("#maliza").click(function(){
+            $("#mabadiliko").hide();
+            $("#badilisha").show();
+        });
+
+        //    Script for showing edit button on personal information
+        $("#badilisha2").click(function(){
+            $("#mabadiliko2").show();
+            $("#badilisha2").hide();
+        });
+        $("#maliza2").click(function(){
+            $("#mabadiliko2").hide();
+            $("#badilisha2").show();
+        });
+        $("#search-button").mouseenter(function () {
+            $("#search").css("max-width","30%")
+        })
+        $("#search-button").mouseleave(function () {
+            $("#search").css("max-width","20%")
+        })
+
+    });
+</script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/now-ui-kit.js%20v=1.2" type="text/javascript"></script>
 <!-- Custom Scroller Js CDN -->
