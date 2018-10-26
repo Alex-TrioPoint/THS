@@ -14,8 +14,8 @@
         <!--<span class="navbar-toggler-bar bar3"></span>-->
         <!--</button>-->
         <ul class="prof navbar-brand">
-            <li><img src="assets/img/default-avatar.png" alt="Circle Image" class="rounded-circle prof-pic text-center"></li>
-            <li><p class="p-name">Moses &nbsp;<strong>Mukembu</strong></p><br><label class="">ICT Manager</label></li>
+            <li><img src="assets/img/prof.png" alt="Circle Image" class="rounded-circle prof-pic text-center"></li>
+            <li><p class="p-name">Yooh &nbsp;<strong>Greats</strong></p><br><label class="">ICT Manager</label></li>
         </ul>
 
 
